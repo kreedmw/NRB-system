@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+/vendor/
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+/storage/temp/*
+!/storage/temp/.gitkeep
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/app/logs/*.log

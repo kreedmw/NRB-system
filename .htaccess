@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# When the app sits under a project folder like /NRB, route requests to the public folder.
+RewriteRule ^(.*)$ public/$1 [L,QSA]
